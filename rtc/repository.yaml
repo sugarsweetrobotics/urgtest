@@ -1,0 +1,4 @@
+RangeDataViewer: {description: '', git: 'https://github.com/sugarsweetrobotics/RangeDataViewer.git',
+  hash: 944eb5b8c3d154e28f3ebc57f4d17386b56f68c0}
+UrgRTC: {description: '', git: 'https://github.com/sugarsweetrobotics/UrgRTC.git',
+  hash: 0609d892a0d541c5470e5cf9954b60f211c83abb}
