@@ -17,7 +17,7 @@
         <rts:ConfigurationSets rts:id="default">
             <rts:ConfigurationData rts:data="0" rts:name="debug"/>
             <rts:ConfigurationData rts:data="115200" rts:name="baudrate"/>
-            <rts:ConfigurationData rts:data="/dev/cu.usbmodem1421" rts:name="port_name"/>
+            <rts:ConfigurationData rts:data="/dev/ttyACM0" rts:name="port_name"/>
             <rts:ConfigurationData rts:data="2" rts:name="encoding"/>
         </rts:ConfigurationSets>
         <rts:ConfigurationSets rts:id="__widget__">
