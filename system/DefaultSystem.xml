@@ -17,7 +17,7 @@
         <rts:ConfigurationSets rts:id="default">
             <rts:ConfigurationData rts:data="0" rts:name="debug"/>
             <rts:ConfigurationData rts:data="115200" rts:name="baudrate"/>
-            <rts:ConfigurationData rts:data="/dev/ttyACM0" rts:name="port_name"/>
+            <rts:ConfigurationData rts:data="\\.\COM15" rts:name="port_name"/>
             <rts:ConfigurationData rts:data="2" rts:name="encoding"/>
         </rts:ConfigurationSets>
         <rts:ConfigurationSets rts:id="__widget__">
@@ -41,9 +41,9 @@
             <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/RangeDataViewer0.rtc"/>
         </rts:targetDataPort>
         <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
-        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
         <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/RangeData:1.0"/>
         <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
-        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
     </rts:DataPortConnectors>
 </rts:RtsProfile>

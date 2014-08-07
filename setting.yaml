@@ -5,8 +5,9 @@ application:
   conf.C++: conf/rtc_cpp.conf
   conf.Java: conf/rtc_java.conf
   conf.Python: conf/rtc_py.conf
+  console_bind:
+  - C++
   name: urgtest
   nameservers:
   - localhost:2809
   system: system/DefaultSystem.xml
-  console_bind: [C++]
