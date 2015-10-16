@@ -1,5 +1,10 @@
-RangeDataViewer: {description: '', git: 'https://github.com/sugarsweetrobotics/RangeDataViewer.git',
-  hash: 944eb5b8c3d154e28f3ebc57f4d17386b56f68c0}
-UrgRTC: {description: '', git: 'https://github.com/sugarsweetrobotics/UrgRTC.git',
-  hash: 694fd19f2a5205c47907d42aea7e93bab03414de}
-
+RangeDataViewer:
+  description: Range Data Viewer Component
+  git: https://github.com/sugarsweetrobotics/RangeDataViewer.git
+  hash: 055a6b6abd92e889e0e469d8feaf236bb0ae7576
+  repo_name: RangeDataViewer
+UrgRTC:
+  description: Hokuyo URG RTC
+  git: https://github.com/sugarsweetrobotics/UrgRTC.git
+  hash: f11f45536767b6b2717175ea4947cd45ae5fc50e
+  repo_name: UrgRTC
